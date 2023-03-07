@@ -1,0 +1,31 @@
+Package: Colossus
+Type: Package
+Title: Minimal Reproducable Example
+Version: 0.9
+Date: 2023-3-07
+Author: Eric Giunta
+Maintainer: Eric Giunta <egiunta@ksu.edu>
+Description: example
+License: GPL (>= 2)
+Imports:
+    Rcpp (>= 1.0.9),
+    RcppEigen,
+    RcppParallel,
+    data.table,
+    parallel,
+    stats,
+    utils,
+    survival,
+    rlang
+LinkingTo: Rcpp, RcppEigen, RcppParallel, testthat
+SystemRequirements: GNU make
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Suggests: 
+    knitr,
+    rmarkdown,
+    xml2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
